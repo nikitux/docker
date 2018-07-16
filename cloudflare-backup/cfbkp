@@ -1,0 +1,10 @@
+/bkp/zones.txt {
+	missingok
+	rotate 7
+	prerotate
+		/usr/local/bin/cf-backup > /bkp/zones.txt
+	endscript
+	postrotate
+		touch /bkp/zones.txt
+	endscript
+}
