@@ -1,7 +1,6 @@
 # CloudFlare DNS backup
 
 
-```
 ## Rancher stack 
 
 ```
@@ -21,7 +20,6 @@ services:
     - cf-bkp:/bkp
     labels:
       io.rancher.container.pull_image: always
-
 
 ```
 
